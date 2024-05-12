@@ -131,7 +131,7 @@ Integer tb;
                                     tb=tb+Integer.parseInt(harga);
                                 }
                                 sb.setText(formatRupiah(Double.parseDouble(String.valueOf(tb))));
-                                bsd.dismiss();;
+                                bsd.dismiss();
                             }
                         });
                     }
